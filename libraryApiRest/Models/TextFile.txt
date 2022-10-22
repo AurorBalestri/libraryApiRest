@@ -1,0 +1,20 @@
+﻿classi:
+book
+borrow
+customer
+
+CRUD:
+-POST, nome: AddBook
+/getBook/{bookId}
+
+-GET, nome: getAllBooks
+/getall
+
+-GET, nome:getBookById(id)
+/book/{bookId}
+
+-PUT, nome: updateBook(id)
+/book/{bookId}
+
+-DELETE, nome: removeBook(id)
+/book/bookId
